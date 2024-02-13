@@ -32,10 +32,12 @@ function App() {
         setIsLoading(false);
         setOutput(resp.data.data as ExtractedTextType);
         setOpenModal("output");
+      } else {
+        throw new Error(resp.data);
       }
     } catch (error) {
       setIsLoading(false);
-      console.error("Error during upload:", error);
+      console.error("Error:", error);
     }
   };
 

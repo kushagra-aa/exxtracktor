@@ -7,13 +7,13 @@
 
 ## FrontEnd
 
-- [] Make Frontend
+- [X] Make Frontend
   - [X] Add APIs file
   - [X] Add Markup
   - [X] Add Styles
   - [X] Add Logic for Image Upload
   - [X] Add Logic for handling the response
-  - [] Show the response on page
+  - [X] Show the response on page
 
 ## BackEnd
 

@@ -1,5 +1,6 @@
 import { LegacyRef, useState } from "react";
 import Modal from "../modalWrapper/ModalWrapper";
+import Loader from "../loader/Loader";
 
 interface ImagePreviewState {
   selectedFile?: File;
@@ -41,7 +42,7 @@ export default function UploadModal({
         action="Upload"
         cancelHandler={handleModalClose}
       >
-        {isLoading && "LOADINGG..."}
+        <Loader isLoading={isLoading} />
 
         <label
           htmlFor="imageUpload"
