@@ -44,3 +44,7 @@ next-env.d.ts
 
 # python environment
 */*env
+
+# uploads
+*/uploads/*.png
+*/uploads/*.jpg
