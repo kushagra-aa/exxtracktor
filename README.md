@@ -20,6 +20,13 @@ Built with 🤍 For You!
 
 ## Screenshots
 
+![image](https://github.com/kushagra-aa/exxtracktor/assets/68841296/13b14aeb-69bc-464b-a12c-ade1ee2ecc03)
+![image](https://github.com/kushagra-aa/exxtracktor/assets/68841296/205d2f05-d564-4dea-928e-4313c6b21f2b)
+![image](https://github.com/kushagra-aa/exxtracktor/assets/68841296/df851981-e7e0-4759-88ab-eea72f168e6b)
+![image](https://github.com/kushagra-aa/exxtracktor/assets/68841296/c09dcb90-3b18-4798-aa96-fcbeae251f80)
+
+
+
 ## Run Locally
 
 1. Clone the repository:
