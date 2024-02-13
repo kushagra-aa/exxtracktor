@@ -9,10 +9,12 @@ export default function UploadModal({
   handleModalClose,
   handleUpload,
   inputRef,
+  isLoading,
 }: {
   handleModalClose: () => void;
   handleUpload: () => void;
   inputRef: LegacyRef<HTMLInputElement>;
+  isLoading: boolean;
 }) {
   const [imageState, setImageState] = useState<ImagePreviewState>({});
 
@@ -39,6 +41,8 @@ export default function UploadModal({
         action="Upload"
         cancelHandler={handleModalClose}
       >
+        {isLoading && "LOADINGG..."}
+
         <label
           htmlFor="imageUpload"
           className={`${imageState.previewUrl && "disabled"}`}
