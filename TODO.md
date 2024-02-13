@@ -9,8 +9,8 @@
 
 - [] Make Frontend
   - [X] Add APIs file
-  - [] Add Markup
-  - [] Add Styles
+  - [X] Add Markup
+  - [X] Add Styles
   - [] Add Logic for Image Upload
   - [] Add Logic for handling the response
   - [] Show the response on page
