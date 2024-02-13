@@ -8,7 +8,7 @@
 ## FrontEnd
 
 - [] Make Frontend
-  - [] Add APIs file
+  - [X] Add APIs file
   - [] Add Markup
   - [] Add Styles
   - [] Add Logic for Image Upload
