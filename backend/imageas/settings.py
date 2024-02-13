@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-ky+3i^-w!&bhj6+*a3qnudd7(7li7j0-#!a6i9*u0xcmv#m=km
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost']
+CORS_ALLOWED_ORIGINS = ['http://localhost:5173', 'http://localhost:5174',
+                        'http://localhost:3000', 'http://localhost:3001']
 
 
 # Application definition
@@ -33,12 +35,25 @@ ALLOWED_HOSTS = ['*']
 INSTALLED_APPS = [
     'extract',
     'rest_framework',
+    'corsheaders',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+]
+
+CORS_ALLOW_METHODS = [
+    'GET',
+    'POST',
+    'OPTIONS',
+]
+
+CORS_ALLOW_HEADERS = [
+    'Authorization',
+    'Content-Type',
+    'X-CSRFToken',
 ]
 
 MIDDLEWARE = [
@@ -49,6 +64,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
 ]
 
 ROOT_URLCONF = 'imageas.urls'

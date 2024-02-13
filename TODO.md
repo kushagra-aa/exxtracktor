@@ -17,7 +17,7 @@
 
 ## BackEnd
 
-- [] Cors
+- [X] Cors
 - [X] Make Conversions Model
 - [X] Make Post API
   - [X] Upload Image
